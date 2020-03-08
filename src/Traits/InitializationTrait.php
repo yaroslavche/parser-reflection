@@ -34,9 +34,10 @@ trait InitializationTrait
     /**
      * Returns the status of initialization status for internal object
      *
+     * @param null $object
      * @return bool
      */
-    public function isInitialized()
+    public function isInitialized($object = null)
     {
         return $this->isInitialized;
     }
